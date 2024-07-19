@@ -1,0 +1,1441 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+body{
+  background-color:white;
+
+}
+
+.d1
+{
+  background-color: white;
+  position: absolute;
+  top: 0;
+  
+  
+  width: 220px;
+  height: 900px;
+}
+
+.i1{
+position: relative;
+top: 42px;
+left: 42px;
+
+}
+
+.i1:hover{
+
+  cursor: pointer;
+}
+
+p{
+
+  
+  position: relative;
+
+  
+font-size: 25px;
+font-weight: 100;
+line-height: 32.74px;
+text-align: left;
+left: 100px;
+bottom: 20px;
+color: rgba(3, 2, 41, 1);
+
+font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 'semibold';
+  font-style: normal;
+  text-shadow: 1px 1px 2px gray;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: white;
+}
+
+li a {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  
+  letter-spacing: 0.8px;
+
+  display: block;
+ color: rgba(3, 2, 41, 1);
+
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+  
+
+}
+
+
+
+
+.list1{
+
+  position: absolute;
+  background-color: white;
+  width: 80px;
+  height: 22px;
+  top: 139px;
+  left: 55px;
+  gap: 0px;
+  opacity: 0px;
+  
+  
+  font-family: "Nunito", sans-serif;
+font-size: 16px;
+font-weight: 100;
+line-height: 21.82px;
+text-align: left;
+color:  #707070
+;
+
+}
+
+.list1:hover{
+  color: rgba(96, 91, 255, 1);
+  ;
+  
+}
+
+.list2{
+
+
+
+  color:  #707070;
+
+  position: absolute;
+  width: 68px;
+height: 22px;
+top: 195px;
+left: 55px;
+gap: 0px;
+opacity: 0.5px;
+
+}
+
+.list2:hover{
+  color: rgba(96, 91, 255, 1);
+  ;
+  
+}
+
+.list3{
+
+  color:  #707070;
+
+  position: absolute;
+  width: 51px;
+height: 22px;
+top: 248px;
+left: 55px;
+gap: 0px;
+opacity: 0.5px;
+
+
+
+}
+
+.list3:hover{
+  color: rgba(96, 91, 255, 1);
+  ;
+  
+}
+
+
+.list4{
+
+  color:  #707070;
+  position: absolute;
+  position: absolute;
+  width: 68px;
+height: 22px;
+top: 300px;
+left: 55px;
+gap: 0px;
+opacity: 0.5px;
+}
+.list4:hover{
+  color: rgba(96, 91, 255, 1);
+  ;
+  
+}
+
+.list5{
+
+  color:  #707070;
+  position: absolute;
+
+  width: 66px;
+height: 22px;
+top: 355px;
+left: 55px;
+gap: 0px;
+opacity: 0.5px;
+
+}
+
+.list5:hover{
+  color: rgba(96, 91, 255, 1);
+  ;
+  
+}
+
+.list6{
+  color:  #707070;
+  position: absolute;
+
+  width: 73px;
+  height: 22px;
+  top: 410px;
+  left: 55px;
+  gap: 0px;
+  opacity: 0.5px;
+  
+
+}
+.list6:hover{
+  color: rgba(96, 91, 255, 1);
+  ;
+  
+}
+
+
+
+.list7{
+  color:  #707070;
+
+  position: absolute;
+
+  width: 85px;
+height: 22px;
+top: 462px;
+left: 55px;
+gap: 0px;
+opacity: 0.5px;
+
+
+}
+
+.list7:hover{
+  color: rgba(96, 91, 255, 1);
+  ;
+  
+}
+
+.list8{
+
+  color:  #707070;
+  position: absolute;
+
+  width: 61px;
+height: 22px;
+top: 518px;
+left: 55px;
+gap: 0px;
+opacity: 0.5px;
+
+}
+.list8:hover{
+  color: rgba(96, 91, 255, 1);
+  ;
+  
+}
+
+.n1{
+  position: absolute;
+  
+  width: 24px;
+  height: 24px;
+  top: 142px;
+  left: 28px;
+  padding: 2px;
+  gap: 0px;
+  opacity: 0px;
+  
+
+}
+.n1:hover{
+  cursor: pointer;
+  color: rgba(96, 91, 255, 1);
+ }
+
+
+
+.n2{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 196px;
+  left: 28px;
+  padding: 2px;
+  gap: 0px;
+  opacity: 0.4px;
+  
+  
+
+}
+.n2:hover{
+  cursor: pointer;
+ 
+ }
+
+.n3{
+  position: absolute;
+  width: 24px;
+height: 24px;
+top: 250px;
+left: 28px;
+padding: 4px 2px 4px 2px;
+gap: 0px;
+opacity: 0.4px;
+
+ cursor: pointer; 
+
+}
+
+.n4{
+  position: absolute;
+ 
+  width: 24px;
+  height: 24px;
+  top: 304px;
+  left: 28px;
+  padding: 2px 3px 2px 3px;
+  gap: 0px;
+  opacity: 0.4px;
+    
+
+}
+
+
+.n5{
+  position: absolute;
+ 
+  width: 24px;
+  height: 24px;
+  top: 358px;
+  left: 28px;
+  padding: 2px 3px 2px 3px;
+  gap: 0px;
+  opacity: 0.4px;
+    
+
+}
+
+.n6{
+  position: absolute;
+ 
+  width: 24px;
+height: 24px;
+top: 412px;
+left: 28px;
+padding: 2px;
+gap: 0px;
+opacity: 0.4px;
+
+
+}
+
+.n7{
+  position: absolute;
+
+  width: 24px;
+height: 24px;
+top: 466px;
+left: 28px;
+padding: 2px 3.5px 2px 3.5px;
+gap: 0px;
+opacity: 0.4px;
+
+
+}
+
+.n8{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 520px;
+  left: 28px;
+  padding: 2px 2.5px 2px 2.5px;
+  gap: 0px;
+  opacity: 0.4px;
+    
+  
+
+}
+
+
+
+.n9{
+  position: absolute;
+  
+ 
+    
+  width: 150px;
+height: 150px;
+top: 602px;
+left: 34px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.n10{
+
+  position: absolute;
+  width: 168px;
+height: 161px;
+top: 636px;
+left: 25px;
+gap: 0px;
+border-radius: 20px 0px 0px 0px;
+opacity: 0.1px;
+
+}
+
+.n11{
+position: absolute;
+width: 127px;
+height: 43px;
+top: 714px;
+left: 45px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.button{
+position: absolute;
+  width: 138px;
+height: 33px;
+top: 749px;
+left: 40px;
+gap: 0px;
+border-radius: 10px 10px 10px 10px;
+opacity: 0px;
+border-color: rgba(96, 91, 255, 1);
+
+
+background: rgba(96, 91, 255, 1);
+border: none;
+color: white;
+padding: 8px 12px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+cursor: pointer;
+font-family:"Nunito", sans-serif; 
+
+
+}
+
+
+.n12{
+  position: absolute;
+  width: 166.98px;
+height: 43px;
+top: 827px;
+left: 25px;
+gap: 0px;
+border-radius: 12px 0px 0px 0px;
+opacity: 0px;
+
+  
+  }
+
+
+
+  .d2{
+
+    position: absolute;
+    width: 1161.55px;
+height: 40px;
+top: 30px;
+left: 248px;
+border-radius: 10px 10px 10px 10px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background-color: white;
+border: 1px solid rgba(255, 255, 255, 1);
+
+
+  }
+ .H2{
+position: absolute;
+
+top: -15px;
+bottom: 0;
+left: 25px;
+gap: 0px;
+opacity: 0px;
+color: rgba(1, 0, 37, 1);
+
+
+font-family: "Nunito", sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 32.74px;
+text-align: left;
+
+
+ } 
+
+ .n13{
+  position: absolute;
+
+top: 0px;
+left: 890px;
+
+ }
+ .n13:hover{
+
+  cursor: pointer;
+ }
+
+ .n14{
+position: absolute;
+left: 1015px;
+
+ }
+
+ .n14:hover{
+
+  cursor: pointer;
+ } 
+
+
+ .d3{
+
+  position: absolute;
+  width: 1161.55px;
+height: 40px;
+top: 98px;
+left: 248px;
+gap: 0px;
+border-radius: 10px 10px 10px 10px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background-color: white;
+border: 1px solid rgba(255, 255, 255, 1)
+}
+
+
+.button2{
+  position: relative;
+  width: 101.82px;
+height: 40px;
+top: 0px;
+
+left: 22px;
+gap: 0px;
+border-radius: 10px 10px 10px 10px;
+opacity: 0px;
+
+  
+  border-color: rgba(96, 91, 255, 1);
+  
+  
+  background: rgba(96, 91, 255, 1);
+
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  font-family:"Nunito", sans-serif; 
+  
+  
+  }
+
+  .button2:hover{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+ 
+
+
+
+
+  .button3{
+    position: relative;
+    width: 101.82px;
+  height: 40px;
+  top: 0px;
+  
+  left: 23px;
+  gap: 0px;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0px;
+  
+    
+    border-color: rgba(96, 91, 255, 1);
+    
+    
+    background: rgba(255, 255, 255, 1);
+
+  
+    border: none;
+    color:  rgba(3, 2, 41, 1);
+
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    font-family:"Nunito", sans-serif; 
+    
+    
+    }
+
+    .button3:hover{
+      background-color: rgba(96, 91, 255, 1);
+      color: white;
+      
+        box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       
+    }
+   
+
+
+
+    .button4{
+      position: relative;
+      width: 144.55px;
+      height: 40px;
+      top: 0px;
+      left: 795px;
+      gap: 0px;
+      border-radius: 10px 10px 10px 10px;
+      opacity: 0px;
+      
+    
+      
+      border-color: rgba(96, 91, 255, 1);
+      
+      
+      background: rgba(96, 91, 255, 1);
+    
+      border: none;
+      color: white;
+      padding: 8px 12px;
+      word-spacing: 1px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      cursor: pointer;
+      font-family:"Nunito", sans-serif; 
+      
+      
+      }
+      .button4:hover{
+        box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+      }
+     
+
+.d4{
+      position:absolute;
+
+      width: 363.5px;
+height: 181px;
+top: 173px;
+left: 249px;
+gap: 0px;
+border-radius: 0px 0px 0px 0px;
+opacity: 0px;
+background-color: white;
+cursor: pointer;
+      }
+
+ .p1{
+ top: 14px;
+ left: 105px;
+ opacity: 70%;
+position: absolute;  
+font-family: 'Nunito',sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 19.1px;
+text-align: left;
+color: rgba(3, 2, 41, 1);
+
+text-shadow: none;
+
+ }     
+ 
+ .p2{
+position: absolute;
+color:rgba(3, 2, 41, 1) ;
+
+font-family: Nunito,sans-serif;
+font-size: 24px;
+font-weight: 600;
+line-height: 32.74px;
+text-align: left;
+
+top: 26px;
+left: 103px;
+opacity: 70%;
+
+text-shadow: none;
+ }
+
+
+ .img1{
+position: absolute;
+top: 25px;
+left: 25px;
+radius:55px;
+
+ }
+
+ .img2{
+position: absolute;
+top: 63px;
+left: -7px;
+
+
+
+ }
+
+
+ .img3{
+  position: absolute;
+  top: 69px;
+  left: 1px;
+ }
+
+
+ .p3{
+  position: absolute;
+
+  color: rgba(43, 153, 67, 1);
+  
+  font-family: sans-serif;
+font-size: 11px;
+font-weight: 60;
+line-height: 15px;
+text-align: left;
+
+
+text-shadow: none;
+top: 20px;
+left: 250px;
+gap: 0px;
+opacity:90%;
+
+ }
+
+
+
+ .d5{
+  position:absolute;
+
+  width: 363.5px;
+  height: 182px;
+  top: 171px;
+  left: 642px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: white;  
+  cursor: pointer;
+  }
+
+
+  .img4{
+   position :absolute;
+   top: 25px;
+   left: 25px;
+    
+  }
+
+
+  .img5{
+    position :absolute;
+    top: 46px;
+    left: 46px;
+     
+   }
+
+
+   .img6{
+    position :absolute;
+    top: 85px;
+    left: -5px;
+   
+   }
+
+
+   .img7{
+    position :absolute;
+    top: 90px;
+    left: 0px;
+    
+   }
+
+
+   .img8{
+    position :absolute;
+    top: 64px;
+    left: 64px;
+    display: none;
+   }
+
+
+.table{
+position: relative;
+background-color: white;
+width: 757px;
+height: 487px;
+top: 385px;
+left: 248px;
+gap: 0px;
+opacity: 0px;
+border-radius: 10px 10px 10px 10px;
+
+font-family: sans-serif;
+
+}
+
+
+.con1{
+position: absolute;
+
+top:10px;
+left: 40px;
+font-size: 18px;
+gap: 0px;
+opacity: 0px;
+text-shadow: none;
+
+color:  rgba(0, 0, 0, 1);
+
+}
+
+a{
+    position:absolute;
+
+    text-decoration: dashed;
+    color:  rgba(96, 91, 255, 1);
+    right: 25px;
+    top: 35px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.tab1{
+ position: absolute;
+ 
+ width: 656px;
+height: 13px;
+top: 69px;
+left: 50px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+
+
+                                      .di1{
+                                        position: absolute;
+                                        width: 696px;
+                                        height: 55px;
+                                        top: 95px;
+                                        left: 25px;
+                                        gap: 0px;
+                                        opacity: 0px;
+                                        background-color: white;
+
+                                      }
+                                      .di1:hover{
+                                        box-shadow: 1px 1px 1px 1px gray;
+                                        background-color: #F9F9F9;
+                                        cursor: pointer;
+                                    }
+
+
+                                                .tab2{
+                                                  position: absolute;
+
+                                                  
+                                                  
+                                                  top: 20px;
+                                                  left: 25px;
+                                                  gap: 0px;
+                                                  opacity: 0px;
+
+                                                }
+
+
+                                      .di2{
+                                        position: absolute;
+                                        width: 696px;
+                                        height: 55px;
+                                        top: 151px;
+                                        left: 25px;
+                                        gap: 0px;
+                                        opacity: 0px;
+                                        background-color: white;
+
+                                      }
+                                      .di2:hover{
+                                        box-shadow: 1px 1px 1px 1px gray;
+                                        background-color: #F9F9F9;
+                                        cursor: pointer;
+                                    }
+                                      .tab3{
+                                        position: absolute;
+
+                                        
+                                        
+                                        top: 20px;
+                                        left: 25px;
+                                        gap: 0px;
+                                        opacity: 0px;
+
+                                      }
+
+                                      .di3{
+                                        position: absolute;
+                                        width: 696px;
+                                        height: 55px;
+                                        top: 207px;
+                                        left: 25px;
+                                        gap: 0px;
+                                        opacity: 0px;
+                                        background-color: white;
+
+                                      }
+                                      .di3:hover{
+                                        box-shadow: 1px 1px 1px 1px gray;
+                                        background-color: #F9F9F9;
+                                        cursor: pointer;
+                                    }
+
+                                      .tab4{
+                                        position: absolute;
+
+                                        
+                                        
+                                        top: 20px;
+                                        left: 25px;
+                                        gap: 0px;
+                                        opacity: 0px;
+
+                                      }
+
+
+                                      .di4{
+                                        position: absolute;
+                                        width: 696px;
+                                        height: 55px;
+                                        top: 263px;
+                                        left: 25px;
+                                        gap: 0px;
+                                        opacity: 0px;
+                                        background-color: white;
+
+                                      }
+                                      .di4:hover{
+                                        box-shadow: 1px 1px 1px 1px gray;
+                                        background-color: #F9F9F9;
+                                        cursor: pointer;
+                                    }
+
+
+                                      .no1{
+                                        position: absolute;
+                                          width: 8px;
+                                          height: 11px;                      
+                                          top: -2px;
+                                          left: 25px;
+                                          gap: 0px;
+                                          opacity: 80%;
+
+
+                                          font-size: 18px;
+                                          text-shadow: none;
+
+                                      }
+
+
+
+                                      .di5{
+                                        position: absolute;
+                                        width: 696px;
+                                        height: 55px;
+                                        top: 320px;
+                                        left: 25px;
+                                        gap: 0px;
+                                        opacity: 0px;
+                                        background-color: white;
+
+                                      }
+                                      .di5:hover{
+                                        box-shadow: 1px 1px 1px 1px gray;
+                                        background-color: #F9F9F9;
+                                        cursor: pointer;
+                                    }
+
+                                      
+                                      .no2{
+                                        position: absolute;
+                                          width: 8px;
+                                          height: 11px;                      
+                                          top: -2px;
+                                          left: 25px;
+                                          gap: 0px;
+                                          opacity: 80%;
+
+
+                                          font-size: 18px;
+                                          text-shadow: none;
+
+
+
+                                      }
+
+
+                                      .di6{
+                                        position: absolute;
+                                        width: 696px;
+                                        height: 55px;
+                                        top: 376px;
+                                        left: 25px;
+                                        gap: 0px;
+                                        opacity: 0px;
+                                        background-color: white;
+                                       
+
+                                      }
+                                      .di6:hover{
+                                          box-shadow: 1px 1px 1px 1px gray;
+                                          background-color: #F9F9F9;
+                                          cursor: pointer;
+                                      }
+
+                                      .no3{
+                                        position: absolute;
+                                          width: 8px;
+                                          height: 11px;                      
+                                          top: -2px;
+                                          left: 25px;
+                                          gap: 0px;
+                                          opacity: 80%;
+
+
+                                          font-size: 18px;
+                                          text-shadow: none;
+
+
+
+                                      }
+
+ .ti1{
+position: absolute;
+width: 37px;
+height: 37px;
+top: 10px;
+left: 100px;
+gap: 0px;
+opacity: 0px;
+
+ }     
+ 
+ .ti2{
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  top: 10px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  
+   } 
+
+
+   .ti3{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    top: 10px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    
+     } 
+
+     .ti4{
+      position: absolute;
+      width: 37px;
+      height: 37px;
+      top: 10px;
+      left: 100px;
+      gap: 0px;
+      opacity: 0px;
+      
+       } 
+
+
+       .ti5{
+        position: absolute;
+        width: 37px;
+        height: 37px;
+        top: 10px;
+        left: 100px;
+        gap: 0px;
+        opacity: 0px;
+        
+         } 
+
+         .ti6{
+          position: absolute;
+          width: 37px;
+          height: 37px;
+          top: 10px;
+          left: 100px;
+          gap: 0px;
+          opacity: 0px;
+          
+           }    
+           
+           
+
+  .li1{
+    position:absolute;
+ font-size: 12px;
+top: 22px;
+left: 155px;
+gap: 0px;
+opacity: 0px;
+
+font-family: sans-serif;
+font-weight: 600;
+
+  }    
+  
+  
+
+  .li2{
+    position:absolute;
+ font-size: 12px;
+top: 22px;
+left: 155px;
+gap: 0px;
+opacity: 0px;
+
+font-family: sans-serif;
+font-weight: 600;
+
+  }  
+
+
+  .li3{
+    position:absolute;
+ font-size: 12px;
+top: 22px;
+left: 155px;
+gap: 0px;
+opacity: 0px;
+
+font-family: sans-serif;
+font-weight: 600;
+
+  }  
+
+
+
+  .li4{
+    position:absolute;
+ font-size: 12px;
+top: 22px;
+left: 155px;
+gap: 0px;
+opacity: 0px;
+
+font-family: sans-serif;
+font-weight: 600;
+
+  }  
+
+
+  .li5{
+    position:absolute;
+ font-size: 12px;
+top: 22px;
+left: 155px;
+gap: 0px;
+opacity: 0px;
+
+font-family: sans-serif;
+font-weight: 600;
+
+  } 
+  
+  
+  .li6{
+    position:absolute;
+ font-size: 12px;
+top: 22px;
+left: 155px;
+gap: 0px;
+opacity: 0px;
+
+font-family: sans-serif;
+font-weight: 600;
+
+  }   
+
+  .pr1{
+
+    position: absolute;
+
+    top: 5px;
+    left: 340px;
+gap: 0px;
+opacity: 0px;
+text-shadow: none;
+font-size: 11px;
+font-family: sans-serif;
+font-weight: 400px;
+
+
+  } 
+
+
+  .pr2{
+
+    position: absolute;
+
+    top: 5px;
+    left: 460px;
+gap: 0px;
+opacity: 0px;
+text-shadow: none;
+font-size: 11px;
+font-family: sans-serif;
+font-weight: 600px;
+
+
+  }
+  
+  
+
+  .pr3{
+
+    position: absolute;
+
+    top: 5px;
+    left: 620px;
+gap: 0px;
+opacity: 0px;
+text-shadow: none;
+font-size: 11px;
+font-family: sans-serif;
+font-weight: 600px;
+
+color:  rgba(43, 153, 67, 1);
+;
+  }   
+
+
+.pro{
+position: absolute;
+width: 315px;
+height: 223px;
+top: 85px;
+left: 25px;
+gap: 0px;
+opacity: 0px;
+
+
+
+
+}
+
+.pro2{
+  position: absolute;
+  width: 330px;
+  height: 256px;
+  top: 75px;
+  left: 45px;
+  gap: 0px;
+  opacity: 0px;
+  
+
+}
+
+
+
+
+
+.container{
+position: absolute;
+background-color:white;
+width: 375px;
+height: 334px;
+top: 172px;
+left: 1065px;
+gap: 0px;
+opacity: 0px;
+border-radius: 10px 10px 10px 10px;
+cursor: pointer;
+
+
+}
+.container:hover{
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.text1{
+position: absolute;
+
+
+top: 18px;
+left: 25px;
+gap: 0px;
+opacity: 70%;
+text-shadow: none;
+
+font-family: sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 24.55px;
+text-align: left;
+color:  rgba(0, 0, 0, 1);
+}
+
+
+
+.container1{
+  position: absolute;
+  background-color:white;
+  width: 375px;
+  height: 334px;
+  top: 536px;
+  left: 1065px;
+  gap: 0px;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0px;
+
+  }
+  
+ 
+
+
+
+  .text2{
+    position: absolute;
+    
+    
+    top: 18px;
+    left: 25px;
+    gap: 0px;
+    opacity: 70%;
+    text-shadow: none;
+    
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: left;
+    color:  rgba(0, 0, 0, 1);
+    }
+
+
+   
+    @media only screen and (max-width: 1200px) {
+      /* Adjust layout for large screens */
+     .d1 {
+        width: 20%;
+      }
+     .d2 {
+        width: 80%;
+      }
+    }
+  
+    @media only screen and (max-width: 992px) {
+      /* Adjust layout for medium screens */
+     .d1 {
+        width: 25%;
+      }
+     .d2 {
+        width: 75%;
+      }
+    }
+  
+    @media only screen and (max-width: 768px) {
+      /* Adjust layout for small screens */
+     .d1 {
+        width: 30%;
+      }
+     .d2 {
+        width: 70%;
+      }
+    }
+  
+    @media only screen and (max-width: 480px) {
+      /* Adjust layout for extra small screens */
+     .d1 {
+        width: 40%;
+
+        display:block;
+      }
+     .d2 {
+        width: 60%;
+      }
+    }
+  
+
+    
+    
+    
